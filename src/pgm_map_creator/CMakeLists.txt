@@ -168,6 +168,8 @@ target_link_libraries(request_publisher collision_map_creator_msgs ${Boost_LIBRA
 add_dependencies(request_publisher collision_map_creator_msgs)
 
 add_library(collision_map_creator SHARED src/collision_map_creator.cc )
+target_include_directories(collision_map_creator_msgs PUBLIC ${PROTOBUF_INCLUDE_DIRS})
+
 target_link_libraries(collision_map_creator collision_map_creator_msgs ${Boost_LIBRARIES} ${GAZEBO_LIBRARIES} ${SDF_LIBRARIES})
 add_dependencies(collision_map_creator collision_map_creator_msgs)
 

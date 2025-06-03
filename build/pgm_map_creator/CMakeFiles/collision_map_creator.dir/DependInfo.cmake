@@ -20,9 +20,10 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/opt/ros/kinetic/include"
   "/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   "/usr/include/gazebo-7"
-  "/usr/include/sdformat-4.3"
+  "/usr/include/sdformat-4.4"
   "/usr/include/ignition/math2"
   "pgm_map_creator/msgs"
+  "/usr/include/gazebo-7/gazebo/msgs"
   )
 
 # Targets to which this target links.

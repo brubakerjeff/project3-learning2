@@ -117,8 +117,6 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/robond/project3-learning/build/gtest/cmake_install.cmake")
-  include("/home/robond/project3-learning/build/my_robot/cmake_install.cmake")
-  include("/home/robond/project3-learning/build/ball_chaser/cmake_install.cmake")
   include("/home/robond/project3-learning/build/pgm_map_creator/cmake_install.cmake")
 
 endif()

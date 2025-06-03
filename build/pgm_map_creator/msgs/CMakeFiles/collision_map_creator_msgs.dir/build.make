@@ -58,9 +58,9 @@ include pgm_map_creator/msgs/CMakeFiles/collision_map_creator_msgs.dir/progress.
 include pgm_map_creator/msgs/CMakeFiles/collision_map_creator_msgs.dir/flags.make
 
 pgm_map_creator/msgs/collision_map_request.pb.cc: /home/robond/project3-learning/src/pgm_map_creator/msgs/collision_map_request.proto
-pgm_map_creator/msgs/collision_map_request.pb.cc: /home/robond/project3-learning/src/pgm_map_creator/msgs/PROTOBUF_PROTOC_EXECUTABLE-NOTFOUND
+pgm_map_creator/msgs/collision_map_request.pb.cc: /usr/bin/protoc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/robond/project3-learning/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Running C++ protocol buffer compiler on collision_map_request.proto"
-	cd /home/robond/project3-learning/build/pgm_map_creator/msgs && PROTOBUF_PROTOC_EXECUTABLE-NOTFOUND --cpp_out /home/robond/project3-learning/build/pgm_map_creator/msgs -I /home/robond/project3-learning/src/pgm_map_creator/msgs -I /usr/include/gazebo-7/gazebo/msgs/proto /home/robond/project3-learning/src/pgm_map_creator/msgs/collision_map_request.proto
+	cd /home/robond/project3-learning/build/pgm_map_creator/msgs && /usr/bin/protoc --cpp_out /home/robond/project3-learning/build/pgm_map_creator/msgs -I /home/robond/project3-learning/src/pgm_map_creator/msgs -I /usr/include/gazebo-7/gazebo/msgs/proto /home/robond/project3-learning/src/pgm_map_creator/msgs/collision_map_request.proto
 
 pgm_map_creator/msgs/collision_map_request.pb.h: pgm_map_creator/msgs/collision_map_request.pb.cc
 	@$(CMAKE_COMMAND) -E touch_nocreate pgm_map_creator/msgs/collision_map_request.pb.h

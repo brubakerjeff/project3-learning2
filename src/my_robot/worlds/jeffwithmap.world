@@ -920,5 +920,6 @@
         <init_robot_x>0</init_robot_x>          <!-- x coordinate in meters, optional, default 0 -->
         <init_robot_y>0</init_robot_y>          <!-- y coordinate in meters, optional, default 0 -->
     </plugin>
+    <plugin filename="libcollision_map_creator.so" name="collision_map_creator"/>
   </world>
 </sdf>
