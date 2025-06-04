@@ -9,6 +9,7 @@
 # modified environment variables
 export CMAKE_PREFIX_PATH="/home/robond/project3-learning/devel:$CMAKE_PREFIX_PATH"
 export LD_LIBRARY_PATH="/home/robond/project3-learning/devel/lib:$LD_LIBRARY_PATH"
+export PATH="/opt/ros/kinetic/bin:/home/robond/bin:/home/robond/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"
 export PKG_CONFIG_PATH="/home/robond/project3-learning/devel/lib/pkgconfig:$PKG_CONFIG_PATH"
 export PWD="/home/robond/project3-learning/build"
 export PYTHONPATH="/home/robond/project3-learning/devel/lib/python2.7/dist-packages:$PYTHONPATH"
