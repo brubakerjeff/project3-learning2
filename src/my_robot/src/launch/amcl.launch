@@ -1,6 +1,6 @@
 <launch>
 <!-- TODO: Add nodes here -->
-<!--
+
 <arg name="map_file" default="$(find my_robot)/maps/map.yaml"/>
 <node name="map_server" pkg="map_server" type="map_server" args="$(arg map_file)" />
 
@@ -18,16 +18,11 @@
     <param name="initial_pose_y" value="0"/>
   
 </node>
--->
 
-<!-- Move Base -->
-<node name="move_base" pkg="move_base" type="move_base" respawn="false">
-   <param name="debug" value="true"/>
- </node>
 
-<!-- <node name="move_base" pkg="move_base" type="move_base" respawn="false" output="screen">
+ <node name="move_base" pkg="move_base" type="move_base" respawn="false" output="screen">
   <param name="base_global_planner" value="navfn/NavfnROS" />
-  <param name="debug" value="true"/>
+  <param name="debug" value="false"/>
   <param name="base_local_planner" value="base_local_planner/TrajectoryPlannerROS"/>
   <rosparam file="$(find my_robot)/config/costmap_common_params.yaml" command="load" ns="global_costmap" />
   <rosparam file="$(find my_robot)/config/costmap_common_params.yaml" command="load" ns="local_costmap" />
@@ -35,8 +30,8 @@
   <rosparam file="$(find my_robot)/config/global_costmap_params.yaml" command="load" />
   <rosparam file="$(find my_robot)/config/base_local_planner_params.yaml" command="load" />
 </node>
--->
 
-<!-- <remap from="scan" to="my_robot/laser/scan"/> -->
+
+ <remap from="scan" to="my_robot/laser/scan"/> 
 
 </launch>
