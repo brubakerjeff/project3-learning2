@@ -46,7 +46,7 @@
           <far>220</far>
         </clip>
       </camera>
-      <plugin name="camera_controller" filename="libgazebo_ros_kinect.so">
+      <plugin name="camera_controller" filename="libgazebo_ros_openni_kinect.so">
         <alwaysOn>true</alwaysOn>
         <updateRate>0.0</updateRate>
         <cameraName>camera</cameraName>
